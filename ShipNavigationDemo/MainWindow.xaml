@@ -11,7 +11,7 @@
         <TabItem Header="Properties">
             <DockPanel Background="#FFE5E5E5">
                 <Label Content="Stream speed function (as C# expression):" FontFamily="Calibri" FontSize="18" DockPanel.Dock="Top" FontWeight="Bold" FontStyle="Italic"/>
-                <TextBox Name="FunctionTextBox" TextWrapping="Wrap" Text="Math.Sqrt(2.0 * x)" DockPanel.Dock="Top" FontSize="18"/>
+                <TextBox Name="FunctionTextBox" TextWrapping="Wrap" Text="x" DockPanel.Dock="Top" FontSize="18"/>
 
                 <Label Content="Epsilon (arrival accuracy):" FontFamily="Calibri" FontSize="18" FontWeight="Bold" FontStyle="Italic" DockPanel.Dock="Top"/>
                 <TextBox Name="EpsilonTextBox" TextWrapping="Wrap" Text="0.05" FontSize="18" DockPanel.Dock="Top"/>
